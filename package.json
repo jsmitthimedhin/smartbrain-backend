@@ -1,7 +1,7 @@
 {
   "name": "face-recognition-brain-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "The back-end and API of the smartbrain application, containing code for uploading user information to the database and complete with hash for password protection.",
   "main": "script.js",
   "dependencies": {
     "bcrypt-nodejs": "0.0.3",
@@ -19,5 +19,13 @@
     "start": "nodemon server.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jsmitthimedhin/smartbrain-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jsmitthimedhin/smartbrain-backend/issues"
+  },
+  "homepage": "https://github.com/jsmitthimedhin/smartbrain-backend#readme"
 }
